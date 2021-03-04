@@ -15,7 +15,7 @@ defmodule Koans.Mixfile do
   end
 
   defp deps do
-    [{:file_system, "~> 0.2"}]
+    [{:file_system, github: "falood/file_system"}]
   end
 
   defp elixirc_path(:test), do: ["lib/", "test/support"]
